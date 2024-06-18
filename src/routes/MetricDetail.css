@@ -1,0 +1,75 @@
+.metric-detail {
+  text-align: center;
+  margin: 20px;
+}
+
+.metric-detail h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.metric-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.metric-summary .metric-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 150px;
+  background-color: #e1f4f6;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #000000;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.metric-summary .metric-name {
+  font-size: 1.5em;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.metric-chart {
+  margin-bottom: 20px;
+}
+
+.metric-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.metric-stats p {
+  background-color: #e1f4f6;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1.8em;
+}
+
+@media (min-width: 768px) {
+  .metric-chart {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .metric-stats p {
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
+  }
+}
